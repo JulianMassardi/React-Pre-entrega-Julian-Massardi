@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Hamburguesa Doble",
+    "price": 12.325,
+    "category": "Hamburguesa",
+    "description": "Doble de carne, pepinillos, cebolla, ketchup, mostaza.",
+    "imageUrl": "/images/Hamburguesa doble.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Pizza Familiar",
+    "price": 20.435,
+    "category": "Pizza",
+    "description": "Pizza grande de queso Muzzarella elaborada con jamón cocido y morrones asados.",
+    "imageUrl": "/images/jamon y morron.webp"
+  },
+  {
+    "id": "3",
+    "name": "Milanesa Napolitana",
+    "category": "Milanesas",
+    "price": 100.555,
+    "description": "Aguanten las milanesas de la mama de Messi.",
+    "imageUrl": "/images/Milanesa Napolitana.jpg"
+  }
+]

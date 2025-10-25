@@ -1,0 +1,90 @@
+.product-item {
+  background: linear-gradient(145deg, #b30000, #ff6600); /* Fondo cálido con energía */
+  border: 2px solid #ffcc00;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  max-width: 300px;
+  color: #fff8e1;
+  box-shadow: 0 4px 10px rgba(179, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Poppins", "Montserrat", system-ui, Helvetica, Arial, sans-serif;
+  flex: 1 1 250px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.75rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-item:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(255, 102, 0, 0.6);
+}
+
+/* Enlaces */
+.product-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Texto */
+.product-item p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #fff8e1;
+}
+
+/* Título del producto */
+.product-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffcc00;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Acciones */
+.product-actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Botones dentro del producto */
+.product-actions .btn,
+.product-actions .btn-add {
+  background-color: #ffcc00;
+  color: #b30000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+  box-shadow: 0 3px 8px rgba(255, 204, 0, 0.4);
+}
+
+.product-actions .btn:hover,
+.product-actions .btn-add:hover {
+  background-color: #ff6600;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(255, 102, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Contenedor de productos */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

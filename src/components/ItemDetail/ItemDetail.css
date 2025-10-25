@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Permite adaptarse a pantallas pequeñas */
+  padding: 4rem 1rem;
+  min-height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #b30000 0%, #ff6600 100%);
+  font-family: "Poppins", "Montserrat", system-ui, Helvetica, Arial, sans-serif;
+  color: #fff8e1;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+  border-top: 3px solid #ffcc00;
+}
+
+/* Ajuste individual de las tarjetas */
+.product-item {
+  margin-top: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(255, 102, 0, 0.6);
+}
